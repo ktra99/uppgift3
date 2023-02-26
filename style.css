@@ -244,15 +244,20 @@ select {
 }
 
 .footer{
+  display: flex;
+  align-items: center;
   padding: 2.5rem 1rem;
+  justify-content: space-between;
   background-color: rebeccapurple;
 }
 
 .footer mark{
-  display: block;
   color: white;
-  text-align: center;
   background-color: rebeccapurple;
+}
+
+.footer a{
+  color: white;
 }
 
 .form{
