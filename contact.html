@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castush - Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <h4 id="logo">Castush</h4>
+        <div class="navbar__links">
+          <a href="./index.html">Hem</a>
+          <a href="./members.html">Medlemskap</a>
+          <a href="./contact.html" class="active">Kontakt</a>
+        </div>
+      </div>
+    </nav>
+    <main class="form">
+      <div class="form__container">
+        <h2>Kontakta oss</h2>
+        <p>Hör av dig till oss genom att fylla i kontaktformuläret så återkommer vi så snart vi kan.</p>
+        <form>
+          <input type="email" name="email" placeholder="Din e-postadress" required/>
+          <input type="name" name="name" placeholder="Ditt namn" required/>
+          <textarea rows="5" placeholder="Ditt meddelande"></textarea>
+          <select name="staff">
+            <option>Nora</option>
+            <option>Oskar</option>
+            <option>Linda</option>
+            <option>Sara</option>
+          </select>
+          <button type="submit">Skicka</button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <mark>Castush &copy; 2023</mark>
+    </footer>
+  </body>
+</html>
